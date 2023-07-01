@@ -23,10 +23,10 @@ export default {
         return {
             currentIndex: 0,
             images: [
-                { src: '../../public/discordpiccola.png', alt: 'Immagine 1' },
-                { src: '../../public/food4youpiccola.png', alt: 'Immagine 2' },
-                { src: '../../public/phloxpiccola.png', alt: 'Immagine 3' },
-                { src: '../../public/spotifypiccola.png', alt: 'Immagine 4' }
+                { src: '/discordpiccola.png', alt: 'Immagine 1' },
+                { src: '/food4youpiccola.png', alt: 'Immagine 2' },
+                { src: '/phloxpiccola.png', alt: 'Immagine 3' },
+                { src: '/spotifypiccola.png', alt: 'Immagine 4' }
             ]
         };
     },
