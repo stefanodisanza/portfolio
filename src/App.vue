@@ -3,7 +3,7 @@
     <nav class="navbar navbar-expand-lg fixed-top"
       :class="{ 'navbar-dark bg-dark': isDarkMode, 'navbar-light bg-white': !isDarkMode }">
       <div class="container d-flex justify-content-between">
-        <a class="navbar-brand" href="#">Stefano Di Sanza</a>
+        <a class="navbar-brand" @click="goToHomepage">Stefano Di Sanza</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
           aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -53,6 +53,11 @@ export default {
   data() {
     return {
       isDarkMode: false
+    }
+  },
+  methods: {
+    goToHomepage() {
+      this.$router.push('/');
     }
   },
   mounted() {
