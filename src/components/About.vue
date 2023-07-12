@@ -1,7 +1,8 @@
 <template>
     <div>
-        <h1 class="my-5">Chi sono</h1>
-        <p>"Eccoci qua!"</p>
+        <h1 class="my-3">Chi sono?</h1>
+        <img class="rounded-image" src="profilolinkedin.png" alt="">
+        <p class="mt-4">"Eccoci qua!"</p>
         <p class="pt-2">
             Sono un giovane e intraprendente Jr. Full Stack Web Developer con una passione sconfinata per il mondo dello
             sviluppo web. Ho affrontato una sfida epica durante un master certificato di 700 ore presso Boolean Careers,
@@ -43,4 +44,13 @@
         </p>
     </div>
 </template>
+
+<style scoped>
+.rounded-image {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+</style>
   
